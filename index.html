@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+   <title>Streak Habit Tracker</title>
+</head>
+<body class="container mt-4">
+
+
+   <h1 class="text-center">Streak Habit Tracker</h1>
+
+
+   <!-- Add New Habit Section -->
+   <div class="input-group mb-3">
+       <input type="text" id="habit-name" class="form-control" placeholder="Enter habit name">
+       <div class="input-group-append">
+           <button class="btn btn-success" onclick="addHabit()">Add Habit</button>
+       </div>
+   </div>
+
+
+   <!-- Add Friend Section -->
+   <div class="input-group mb-3">
+       <input type="text" id="friend-name" class="form-control" placeholder="Enter friend's username">
+       <div class="input-group-append">
+           <button class="btn btn-info" onclick="addFriend()">Add Friend</button>
+       </div>
+   </div>
+
+
+   <!-- Habit List -->
+   <div id="habit-list"></div>
+
+
+   <script src="script.js"></script>
+</body>
+</html>
+
+
+
